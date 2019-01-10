@@ -1,5 +1,10 @@
-var a = "7";
+var a = "hello";
 var b = 5;
 
-console.log(a + b);
-console.log(Math.PI);
+if(!isNaN(a)) {
+
+    console.log("that int even a number thickie");
+
+}else{
+    console.log("meaning of lise is " + (a*b));
+}
