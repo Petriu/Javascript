@@ -1,10 +1,4 @@
-var a = "hello";
-var b = 5;
+var string1 = "abc";
+var string2 = "ABC";
 
-if(!isNaN(a)) {
-
-    console.log("that int even a number thickie");
-
-}else{
-    console.log("meaning of lise is " + (a*b));
-}
+console.log(string1.toUpperCase() +" " +  string2.toLowerCase());
